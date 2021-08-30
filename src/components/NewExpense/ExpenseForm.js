@@ -1,6 +1,6 @@
 import './ExpenseForm.css'
 import { useState } from 'react';
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
 
 
     // eslint-disable-next-line
@@ -43,12 +43,11 @@ const ExpenseForm = () => {
 
     const submitHandler = (event) => {
         event.preventDefault();
-        console.log({
+        const expenseData = {
             ...userInput,
             date: new Date(userInput.date).toDateString()
-
-
-        });
+        };
+        props.onSaveExpanseData(expenseData)
         setUserInput({
             title: '',
             amount: "",
