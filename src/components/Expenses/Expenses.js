@@ -1,9 +1,9 @@
 import './Expenses.css'
-import Card from './Card'
+import Card from '../UI/Card'
 import ExpenseItem from './ExpenseItem'
 
 function Expenses(props) {
-    console.log(props.items);
+    // console.log(props.items);
     const items = props.items
 
     return (
