@@ -64,10 +64,10 @@ const ExpenseForm = (props) => {
                 </div>
                 <div className='new-expense__control'>
                     <label>Amount</label>
-                    <input type='number' value={userInput.amount} min='1' step='1' onChange={amountChangeHandler} />
+                    <input type='float' value={userInput.amount} min='1' step='1' onChange={amountChangeHandler} />
                 </div>
                 <div className='new-expense__control'>
-                    <label>Title</label>
+                    <label>Date</label>
                     <input type='date' value={userInput.date} min='2019-01-01' max='2022-12-31' onChange={dateChangeHandler} />
                 </div>
             </div>

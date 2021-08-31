@@ -6,7 +6,8 @@ import './ChartBar.css'
 const ChartBar = (props) => {
     let fillHeight = "0%";
     if (props.maxValue > 0) {
-        fillHeight = Math.round((props.value / props.maxValue) * 100) + "%"
+        fillHeight = (props.value / props.maxValue) * 100 + "%"
+
     }
     return (
         <div className='chart-bar'>
