@@ -45,7 +45,7 @@ const ExpenseForm = (props) => {
         event.preventDefault();
         const expenseData = {
             ...userInput,
-            date: new Date(userInput.date).toDateString()
+            date: new Date(userInput.date)
         };
         props.onSaveExpanseData(expenseData)
         setUserInput({
