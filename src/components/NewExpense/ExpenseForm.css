@@ -20,6 +20,13 @@
     width: 20rem;
     max-width: 100%;
   }
+  .new-expense__control.invalid input{
+    border-color: red;
+    background: salmon;
+  }
+  .new-expense__control.invalid label{
+    color: red;
+  }
   
   .new-expense__actions {
     text-align: right;

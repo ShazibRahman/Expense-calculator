@@ -10,7 +10,7 @@ const NewExpense = (props) => {
     const saveExpenseDataHandler = (enteredExpenseData) => {
         const expenseData = {
             ...enteredExpenseData,
-            amount: parseFloat(enteredExpenseData.amount).toFixed(3),
+            amount: enteredExpenseData.amount,
 
             id: Math.random().toString()
         }
