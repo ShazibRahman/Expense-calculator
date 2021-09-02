@@ -41,12 +41,17 @@
     margin-top: 3px;
     
     
-    @media (min-width:768px) {
-      width: auto;
 
-
-      
-    }
   }
 
 
+  @media (min-width:768px) {
+    .new-expense__actions button{
+      width: auto;
+
+
+    }
+
+
+    
+  }

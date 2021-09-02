@@ -10,6 +10,7 @@
   }
   
   .new-expense button {
+    width: 100%;
     font: inherit;
     cursor: pointer;
     padding: 1rem 2rem;
@@ -35,4 +36,12 @@
   .new-expense button.alternative:hover,
   .new-expense button.alternative:active {
     background-color: #ddb3f8;
+  }
+
+
+  @media (min-width:768px) {
+    .new-expense button{
+      width: auto;
+    }
+    
   }
