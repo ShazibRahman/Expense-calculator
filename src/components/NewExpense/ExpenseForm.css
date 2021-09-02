@@ -30,4 +30,23 @@
   
   .new-expense__actions {
     text-align: right;
+    
+
   }
+
+  .new-expense__actions button{
+    width: 100%;
+    padding: auto;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    
+    
+    @media (min-width:768px) {
+      width: auto;
+
+
+      
+    }
+  }
+
+
