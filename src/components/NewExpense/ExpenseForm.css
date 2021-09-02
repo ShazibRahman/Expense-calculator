@@ -22,7 +22,7 @@
   }
   .new-expense__control.invalid input{
     border-color: red;
-    background: salmon;
+    background: rgb(250, 158, 148);
   }
   .new-expense__control.invalid label{
     color: red;
@@ -30,8 +30,6 @@
   
   .new-expense__actions {
     text-align: right;
-    
-
   }
 
   .new-expense__actions button{
@@ -39,19 +37,10 @@
     padding: auto;
     margin-bottom: 3px;
     margin-top: 3px;
-    
-    
-
   }
-
 
   @media (min-width:768px) {
     .new-expense__actions button{
       width: auto;
-
-
     }
-
-
-    
-  }
+}
